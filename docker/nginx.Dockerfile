@@ -1,3 +1,3 @@
-# Split from lab/docker-compose.yml service "nginx"
-# Base image pins the runtime version scanned for SCA (e.g. php2shell on affected PHP).
-FROM nginx:alpine
+# Web server only, no PHP runtime installed here.
+FROM debian:bookworm-slim
+RUN apt-get update && apt-get install -y --no-install-recommends nginx && rm -rf /var/lib/apt/lists/*
