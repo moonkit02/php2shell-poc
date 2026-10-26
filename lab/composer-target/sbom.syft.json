@@ -1,0 +1,9 @@
+{
+  "artifacts": [
+    {
+      "type": "php-composer",
+      "name": "php",
+      "version": "8.2.34"
+    }
+  ]
+}

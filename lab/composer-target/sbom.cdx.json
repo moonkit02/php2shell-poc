@@ -1,0 +1,22 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "php2shell-target",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "application",
+      "name": "php",
+      "version": "8.2.34",
+      "cpe": "cpe:2.3:a:php:php:8.2.34:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/php@8.2.34",
+      "description": "PHP engine pinned below the 8.2.35 fix for CVE-2026-109619 (GHSA-6wmf-4rv5-p3rp)."
+    }
+  ]
+}

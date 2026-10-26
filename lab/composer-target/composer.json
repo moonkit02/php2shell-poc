@@ -1,0 +1,17 @@
+{
+    "name": "acme/php2shell-target",
+    "description": "Test target: PHP engine declared in the php2shell-vulnerable range via composer.",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "psr/log": "^3.0"
+    },
+    "config": {
+        "platform": {
+            "php": "8.2.34"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
